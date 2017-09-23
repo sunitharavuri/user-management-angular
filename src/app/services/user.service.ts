@@ -72,7 +72,6 @@ private formData: FormData = new FormData();
 
     isFormValid() {
         return this.isPersonalFormValid &&
-
                 this.isAddressFormValid;
     }
 
