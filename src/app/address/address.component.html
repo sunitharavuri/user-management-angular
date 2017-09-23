@@ -22,20 +22,20 @@
               <div class="col-xs-12 col-sm-4">
                 <div class="form-group">
                   <label for="city">City:</label>
-                  <input type="text" class="form-control" placeholder="city" #city="ngModel" required  pattern="[a-zA-Z]" name="city" [(ngModel)]="address.city">
+                  <input type="text" class="form-control" placeholder="city" #city="ngModel" required   name="city" [(ngModel)]="address.city">
                   <div [hidden]="city.valid || city.pristine" class="alert alert-danger">
                     <div [hidden]="!city.hasError('required')"> City is required</div>
-                    <div [hidden]="!city.hasError('pattern')"> Only alaphabates are allowed</div>
+                    <!-- <div [hidden]="!city.hasError('pattern')"> Only alaphabates are allowed</div> -->
                   </div>
                 </div>
               </div>
               <div class="col-xs-4 col-sm-offset-1 col-sm-3">
                 <div class="form-group">
                   <label for="state">State:</label>
-                  <input type="text" class="form-control" placeholder="state" #state="ngModel" required  pattern="[a-zA-Z]"  name="state" [(ngModel)]="address.state">
+                  <input type="text" class="form-control" placeholder="state" #state="ngModel" required    name="state" [(ngModel)]="address.state">
                   <div [hidden]="state.valid || state.pristine" class="alert alert-danger">
                     <div [hidden]="!state.hasError('required')"> State is required</div>
-                    <div [hidden]="!state.hasError('pattern')"> Only alaphabates are allowed</div>
+                    <!-- <div [hidden]="!state.hasError('pattern')"> Only alaphabates are allowed</div> -->
                   </div>
                 </div>
               </div>

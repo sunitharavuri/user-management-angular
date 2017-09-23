@@ -1,0 +1,31 @@
+Developer this application using angular/cli ,with npm (node package manager)
+
+This application has different components like  address,personal,result
+services :user service
+modal:user-modal
+
+Included Routing to navigate from one component to other 
+
+Initially default 'personal 'component will be displayed 
+
+         after entering data in personal form 
+         if we press 'next '
+
+         it takes to next form 'address'
+
+         data will be passed from personal to address component and 'save' click 
+         data will be saved and navigates to next component 'result'
+
+         In result all the entered data will be displayed ...
+
+
+         also include at bottonm of each page  how the data populated in JSON format ....
+
+
+         Finally after clicking 'OK' all forms will resets....and takes to Defalut page i,e Pesonal page...
+
+
+    Also included Form validations for each form ..
+
+
+          
